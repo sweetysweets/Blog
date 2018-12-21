@@ -4,7 +4,6 @@ menu:
   主页: /
   #随笔: /tags/随笔/
   相册: /photos
-  标签: /tags
 
 # SubNav
 subnav:
@@ -42,6 +41,8 @@ show_all_link: '展开全文'
 mathjax: false
 # 是否在新窗口打开链接
 open_in_new: false
+#是否开启动画效果
+animate: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
@@ -57,7 +58,7 @@ weixin: /assets/img/wechat.jpg
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
 toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
-toc_hide_index: true
+toc_hide_index: false
 # 目录为空时的提示
 toc_empty_wording: '目录，不存在的…'
 
@@ -106,12 +107,12 @@ style:
   # 右滑板块背景
   #slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
   #slider: 'linear-gradient(#e66465, #9198e5)'
-  slider: /assets/img/background_lovely.png
+  slider: url(/assets/img/background_lovely.png)
 
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false

@@ -142,3 +142,21 @@
 		height: 90%;
 	}
 }
+
+
+.album-header {
+    border: 4px double #7f9397;
+    border-width: 4px 0;
+    padding: 25px 0;
+    text-align: center;
+    color: #888;
+	margin-bottom: 25px;
+}
+.album-title, .album-title-top {
+    line-height: 32px;
+    font-size: 16px;
+}
+.des-title {
+    font-size: 14px;
+    color: #b5b5b5;
+}
