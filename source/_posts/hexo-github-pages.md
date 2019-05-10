@@ -13,6 +13,8 @@ tags:
 
 配置好hexo后用本地markdown编辑器编辑博客并渲染上传即可，操作很简单，需要之后在seo（search engine optimization，搜索引擎优化）下下功夫，这个有空就提上日程吧= =
 
+ <!--more-->
+
 ## 环境配置及安装
 
 1. Node.js

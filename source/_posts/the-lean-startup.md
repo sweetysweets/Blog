@@ -7,6 +7,8 @@ tags:
 
 ​	我们正身处一个空前的全球创业兴盛时代，正在经营企业的创业者比过去任何时候都要多，但由于缺乏清晰的管理范式，成功的周围更多的是失败：产品推出几周后被迫下架，新创企业几个月后就被人遗忘等等。这本书构建了一个创业者的世界观，致力于避免这些失败。
 
+ <!--more-->
+
 ​	这本书的内容多且组织结构复杂，所以画了思维导图。
 
 ![](https://raw.githubusercontent.com/sweetysweets/BlogResource/master/the-lean-startup/lean-startup.png)

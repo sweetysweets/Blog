@@ -56,7 +56,7 @@ weixin: /assets/img/wechat.jpg
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: false
 # 目录为空时的提示
@@ -95,10 +95,23 @@ disqus: false
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_repo: 'sweetysweets.github.io'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 'e07f46a5734e465ca5b6'           #client ID
+  client_secret: '3763a43b928b0d07c822822a24cb9515e31d6618'       #client secret
+
+
+valine:
+  enable: true
+  appid:  GqKhi2RTAOP8F5e9aHUVGGaj-gzGzoHsz
+  appkey: CPSvvJWN1tjo5gAEqSajDqiO
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: ヾﾉ≧∀≦)o感谢评论呀
+  guest_info: nick,mail,link
+  pageSize: 10
+  avatar: mp
+
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -125,11 +138,7 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  leetcode: https://leetcode-cn.com
+  sweets.cf: http://sweets.cf
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme:  还是一只菜狗子啊。<br><br><br>微信 lingpeitang14

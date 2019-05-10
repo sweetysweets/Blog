@@ -5,7 +5,10 @@ tags:
 - python
 ---
 
-python有多种从控制台输入方式： 
+python有多种从控制台输入方式：  
+
+<!--more-->
+
 1.使用input()、raw_input()函数 
 这两个函数在python的内置库里。 
 input()函数返回一个数值（整型或浮点型） 
